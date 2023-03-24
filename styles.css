@@ -3,11 +3,10 @@ html, body{
 	color: #4d4e53;
 	font-family: Helvetica;
 	background-color: #2a2a3550;
-	line-height:  1.5;}
-	body{
-		display: block;
-		margin:8px;
-	}
+	line-height:  1.5;
+}
+	
+	
 
 	#navbar a{
 		display: inline-block;
@@ -26,8 +25,9 @@ html, body{
 			top:0px;
 			left:1px;
 			bottom: 10px;
-			padding:3px 1px;
-			margin:10px ;
+			padding:3px;
+			margin:0 ;
+			color:#fff;
 
 		}
 		
@@ -53,16 +53,16 @@ nav{
 	height: 100%;
 	border-right: solid;
 	border-left: double;
-	border color:rgba(0, 22, 22, 0.4);
+	border-color:rgba(0, 22, 22, 0.4);
 	margin: 0;
-	border: 2.9px;
+	padding: 0;
   
 }
 main{
 	display: block;
 }
 ul{
-	list-style-type:disc;
+	
 	display: block;
 	margin-block-start:1em;
 	margin-block-end: 0;
@@ -78,7 +78,7 @@ code{
 	white-space: pre-line;
 	position: relative;
 	word-break: normal;
-	line height: 2;
+	line-height: 2;
 	background-color: #f7f7f7;
 	padding: 15px;
 	margin: 10px;
@@ -94,9 +94,13 @@ overflow-x: hidden;
 }
 
  
- @media(min-width:800px) and (max-width:1000px){
- 	main{
- 		padding: 2rem;
- 		}
+@media(min-width:800px) and (max-width:1000px){
+	main{
+		padding: 600px;
+		}
+	
+	#nav{
+		padding: 300px;
+	}
 
  }
